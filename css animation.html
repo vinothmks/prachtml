@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: darkred;
+                animation-name: vinoth;
+                animation-duration: 10s;
+                display: inline-flex;
+                animation-iteration-count: 2;
+                animation-direction: normal;
+                position: relative;
+            }
+            @keyframes vinoth {
+                0% {
+                    background-color: green;
+                    left: 0px;
+                }
+                25% {
+                    background-color: blue;
+                    left: 50px;
+                }
+                50% {
+                    background-color: yellow;
+                    left: 100px;
+                }
+                75% {
+                    background-color: slategray;
+                    left: 150px;
+                }
+                100% {
+                    background-color: black;
+                    left: 200px;
+                }
+            }
+        </style>
+        <body>
+            <h1>css animation</h1>
+
+            <div id="vino"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </body>
+    </head>
+</html>
